@@ -1,3 +1,5 @@
+{% load static %}
+<link rel="stylesheet" href="{% static "polls/style.css" %}">
 {% if latest_question_list %}
     <h2>Here you see latest 5 questions sorted by date of publishing in descending order</h2>
     <ul>
